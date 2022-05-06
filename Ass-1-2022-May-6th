@@ -1,0 +1,18 @@
+Input:
+D={1:['Hruthik','18','B+','A',50],2:['RamCharan','9','A+','A',60],3:['SitaRam','35','A+','A',65],
+4:['Jaisurya','45','B+','A',90]}
+x=int(input('Enter a number:'))
+print(x)
+print('Name of the student:',D[x][0])
+print('Name of the blood group:',D[x][1])
+print('Rollno of the student:',D[x][2])
+print('Grade of the student:',D[x][3])
+print('how many Marks that student got in a subject:',D[x][4])
+Output:
+Enter a number:4
+4
+Name of the student: Jaisurya
+Name of the blood group: 45
+Rollno of the student: B+
+Grade of the student: A
+how many Marks that student got in a subject: 90
