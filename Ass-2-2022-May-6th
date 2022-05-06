@@ -1,0 +1,17 @@
+Input:
+D={1:['Hruthik','123',50000,'Developer'],2:['RamCharan','234',60000,'Hr'],3:['SitaRam','354',70000,'Tester'],
+4:['Jaisurya','147',90000,'Manager']}
+x=int(input('Enter a number:'))
+print(x)
+print('Name of the Employee:',D[x][0])
+print('Employee id number:',D[x][1])
+print('How much salary does the employee have:',D[x][2])
+print('Name of the Employee designation:',D[x][3])
+Output:
+Enter a number:4
+4
+Name of the Employee: Jaisurya
+Employee id number: 147
+How much salary does the employee have: 90000
+Name of the Employee designation: Manager
+>>>
