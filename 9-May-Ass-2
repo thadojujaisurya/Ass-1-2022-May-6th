@@ -1,0 +1,8 @@
+Input:
+D={1:['Hruthik','18','B+','A',50],2:['RamCharan','9','A+','A',60],3:['SitaRam','35','A+','A',65],
+4:['Jaisurya','45','B+','A',90]}
+print(D)
+print(D.pop(2))
+Output:
+{1: ['Hruthik', '18', 'B+', 'A', 50], 2: ['RamCharan', '9', 'A+', 'A', 60], 3: ['SitaRam', '35', 'A+', 'A', 65], 4: ['Jaisurya', '45', 'B+', 'A', 90]}
+['RamCharan', '9', 'A+', 'A', 60]
