@@ -1,0 +1,27 @@
+Input:
+n=int(input())
+d={}
+for i in range(n):
+    print("Name    E-mail id")
+    x=input().split()
+    d[x[0]]=x[1]
+
+while True:
+    try:
+        name=str(input())
+        if name in d:
+            print(name," = ",d[name])
+        else:print("Not found")
+    except:
+        break
+Output:
+Name    E-mail id
+jai     jaisurya92466@gmail.com
+Name    E-mail id
+hruthik hruthik1818@gmail.com
+hruthik
+hruthik  =  hruthik1818@gmail.com
+jaisurya
+Not found
+hru
+Not found
